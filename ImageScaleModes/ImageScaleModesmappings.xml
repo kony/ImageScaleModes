@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<application name="ImageScaleModes" id="ImageScaleModes">
+    <container type="form" id="frmImgFitToDimensions" displayname="Form"/>
+    <container type="form" id="frmImgMaintainAspectRatio" displayname="Form"/>
+    <container type="form" id="frmOptions" displayname="Form"/>
+    <container type="form" id="frmURLBasedImage" displayname="Form"/>
+    <container type="form" id="frmHome" displayname="Form"/>
+    <container type="form" id="frmHome" displayname="Form"/>
+    <container type="form" id="frmImgCrop" displayname="Form"/>
+    <container type="form" id="frmImgFitToDimensions" displayname="Form"/>
+    <container type="form" id="frmImgMaintainAspectRatio" displayname="Form"/>
+    <container type="form" id="frmOptions" displayname="Form"/>
+    <container type="form" id="frmURLBasedImage" displayname="Form"/>
+    <container type="form" id="frmHome" displayname="Form"/>
+    <container type="form" id="frmHome" displayname="Form"/>
+    <container type="form" id="frmHome" displayname="Form"/>
+    <container type="form" id="frmImgCrop" displayname="Form"/>
+    <container type="form" id="frmImgFitToDimensions" displayname="Form"/>
+    <container type="form" id="frmImgMaintainAspectRatio" displayname="Form"/>
+    <container type="form" id="frmOptions" displayname="Form"/>
+    <container type="form" id="frmURLBasedImage" displayname="Form"/>
+    <container type="form" id="frmHome" displayname="Form"/>
+    <container type="form" id="frmHome" displayname="Form"/>
+    <globalsequences/>
+    <skins/>
+</application>
