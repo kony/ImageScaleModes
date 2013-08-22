@@ -114,9 +114,9 @@
             <desktop_kiosk_channel>true</desktop_kiosk_channel>
             <desktop_web_channel>true</desktop_web_channel>
             <mixed_android>true</mixed_android>
-            <mixed_android_tab>true</mixed_android_tab>
+            <mixed_android_tab>false</mixed_android_tab>
             <mixed_bb>true</mixed_bb>
-            <mixed_ipad>true</mixed_ipad>
+            <mixed_ipad>false</mixed_ipad>
             <mixed_iphone>true</mixed_iphone>
             <rc_android>true</rc_android>
             <rc_android_tab>true</rc_android_tab>
@@ -417,7 +417,7 @@
         <dialog_width>80</dialog_width>
         <headerId>None</headerId>
         <footerId>None</footerId>
-        <title>Image </title>
+        <title>Image Options</title>
         <init>
             <evtSequence>
                 <enabled>true</enabled>
@@ -1373,7 +1373,7 @@
             <desktop_hoverskin>Skin Defaults</desktop_hoverskin>
             <windows8_hoverskin>Skin Defaults</windows8_hoverskin>
             <children xsi:type="kLabel">
-                <ID>labelChkBox</ID>
+                <ID>lblTitleSPA</ID>
                 <gridMetaData>
                     <colSpan>1</colSpan>
                     <column>0</column>
@@ -1385,7 +1385,7 @@
                     <verticalAlignment>0</verticalAlignment>
                     <verticalFill>1</verticalFill>
                 </gridMetaData>
-                <widgetID>p2kwiet12114459151311</widgetID>
+                <widgetID>p2kwiet12115053741306</widgetID>
                 <createdGAVersion>5.0.0</createdGAVersion>
                 <location>
                     <x>1</x>
@@ -1407,14 +1407,14 @@
                     <desktop_kiosk_channel>true</desktop_kiosk_channel>
                     <desktop_web_channel>true</desktop_web_channel>
                     <mixed_android>true</mixed_android>
-                    <mixed_android_tab>false</mixed_android_tab>
+                    <mixed_android_tab>true</mixed_android_tab>
                     <mixed_bb>true</mixed_bb>
-                    <mixed_ipad>false</mixed_ipad>
+                    <mixed_ipad>true</mixed_ipad>
                     <mixed_iphone>true</mixed_iphone>
                     <rc_android>true</rc_android>
-                    <rc_android_tab>false</rc_android_tab>
+                    <rc_android_tab>true</rc_android_tab>
                     <rc_blackberry>true</rc_blackberry>
-                    <rc_ipad>false</rc_ipad>
+                    <rc_ipad>true</rc_ipad>
                     <rc_iphone>true</rc_iphone>
                     <rc_j2me>true</rc_j2me>
                     <rc_palm>true</rc_palm>
@@ -1462,7 +1462,7 @@
                         <unit>%</unit>
                     </bb>
                     <bb_override>false</bb_override>
-                    <default_override>false</default_override>
+                    <default_override>true</default_override>
                     <defaults>
                         <left>0</left>
                         <right>0</right>
@@ -1487,18 +1487,18 @@
                     </desktop_web>
                     <desktop_web_override>false</desktop_web_override>
                     <ipad>
-                        <left>18</left>
-                        <right>18</right>
-                        <top>27</top>
-                        <bottom>22</bottom>
-                        <unit>px</unit>
+                        <left>0</left>
+                        <right>0</right>
+                        <top>0</top>
+                        <bottom>0</bottom>
+                        <unit>%</unit>
                     </ipad>
-                    <ipad_override>true</ipad_override>
+                    <ipad_override>false</ipad_override>
                     <iphonerc>
-                        <left>12</left>
-                        <right>12</right>
-                        <top>18</top>
-                        <bottom>15</bottom>
+                        <left>1</left>
+                        <right>1</right>
+                        <top>1</top>
+                        <bottom>1</bottom>
                         <unit>px</unit>
                     </iphonerc>
                     <iphonerc_override>true</iphonerc_override>
@@ -1527,14 +1527,14 @@
                     </spaWinphone8>
                     <spaWinphone8_override>false</spaWinphone8_override>
                     <spaipad>
-                        <left>6</left>
-                        <right>6</right>
-                        <top>9</top>
-                        <bottom>7</bottom>
+                        <left>0</left>
+                        <right>0</right>
+                        <top>0</top>
+                        <bottom>0</bottom>
                         <unit>%</unit>
                     </spaipad>
-                    <spaipad_override>false</spaipad_override>
-                    <spatablet_android_override>false</spatablet_android_override>
+                    <spaipad_override>true</spaipad_override>
+                    <spatablet_android_override>true</spatablet_android_override>
                     <spatablet_windows_override>false</spatablet_windows_override>
                     <symbian>
                         <left>1</left>
@@ -1576,13 +1576,13 @@
                     <thinclient_override>false</thinclient_override>
                     <type>1</type>
                     <windows8>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
-                        <unit>%</unit>
+                        <left>1</left>
+                        <right>1</right>
+                        <top>1</top>
+                        <bottom>1</bottom>
+                        <unit>px</unit>
                     </windows8>
-                    <windows8_override>false</windows8_override>
+                    <windows8_override>true</windows8_override>
                     <winmobile>
                         <left>1</left>
                         <right>1</right>
@@ -1600,13 +1600,13 @@
                     <winmobile6x_override>true</winmobile6x_override>
                     <winmobile_override>true</winmobile_override>
                     <winphone8>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
-                        <unit>%</unit>
+                        <left>1</left>
+                        <right>1</right>
+                        <top>1</top>
+                        <bottom>1</bottom>
+                        <unit>px</unit>
                     </winphone8>
-                    <winphone8_override>false</winphone8_override>
+                    <winphone8_override>true</winphone8_override>
                     <xhtmlAdvBB>
                         <left>0</left>
                         <right>0</right>
@@ -1721,7 +1721,7 @@
                         <unit>%</unit>
                     </bb>
                     <bb_override>true</bb_override>
-                    <default_override>false</default_override>
+                    <default_override>true</default_override>
                     <defaults>
                         <left>0</left>
                         <right>0</right>
@@ -1746,13 +1746,13 @@
                     </desktop_web>
                     <desktop_web_override>true</desktop_web_override>
                     <ipad>
-                        <left>7</left>
-                        <right>7</right>
-                        <top>13</top>
-                        <bottom>13</bottom>
-                        <unit>px</unit>
+                        <left>0</left>
+                        <right>0</right>
+                        <top>0</top>
+                        <bottom>0</bottom>
+                        <unit>%</unit>
                     </ipad>
-                    <ipad_override>true</ipad_override>
+                    <ipad_override>false</ipad_override>
                     <iphonerc>
                         <left>6</left>
                         <right>6</right>
@@ -1786,14 +1786,14 @@
                     </spaWinphone8>
                     <spaWinphone8_override>false</spaWinphone8_override>
                     <spaipad>
-                        <left>2</left>
-                        <right>2</right>
-                        <top>5</top>
-                        <bottom>5</bottom>
+                        <left>1</left>
+                        <right>1</right>
+                        <top>1</top>
+                        <bottom>1</bottom>
                         <unit>%</unit>
                     </spaipad>
-                    <spaipad_override>false</spaipad_override>
-                    <spatablet_android_override>false</spatablet_android_override>
+                    <spaipad_override>true</spaipad_override>
+                    <spatablet_android_override>true</spatablet_android_override>
                     <spatablet_windows_override>false</spatablet_windows_override>
                     <symbian>
                         <left>1</left>
@@ -1814,8 +1814,8 @@
                     <tabspaAndroid>
                         <left>0</left>
                         <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
+                        <top>2</top>
+                        <bottom>2</bottom>
                         <unit>%</unit>
                     </tabspaAndroid>
                     <tabspaWindows>
@@ -1835,13 +1835,13 @@
                     <thinclient_override>false</thinclient_override>
                     <type>1</type>
                     <windows8>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
-                        <unit>%</unit>
+                        <left>5</left>
+                        <right>5</right>
+                        <top>5</top>
+                        <bottom>5</bottom>
+                        <unit>px</unit>
                     </windows8>
-                    <windows8_override>false</windows8_override>
+                    <windows8_override>true</windows8_override>
                     <winmobile>
                         <left>3</left>
                         <right>3</right>
@@ -1859,13 +1859,13 @@
                     <winmobile6x_override>true</winmobile6x_override>
                     <winmobile_override>true</winmobile_override>
                     <winphone8>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
-                        <unit>%</unit>
+                        <left>5</left>
+                        <right>5</right>
+                        <top>5</top>
+                        <bottom>5</bottom>
+                        <unit>px</unit>
                     </winphone8>
-                    <winphone8_override>false</winphone8_override>
+                    <winphone8_override>true</winphone8_override>
                     <xhtmlAdvBB>
                         <left>1</left>
                         <right>1</right>
@@ -1963,7 +1963,7 @@
                     </xhtmlNormal>
                     <xhtmlNormal_override>false</xhtmlNormal_override>
                 </paddings>
-                <SText>Image</SText>
+                <SText>Image Options</SText>
                 <overridePerferred>
                     <width>true</width>
                     <height>false</height>
@@ -1991,7 +1991,7 @@
                 <tc_renderAsanchor>false</tc_renderAsanchor>
                 <tc_content_align>0</tc_content_align>
                 <spa_renderAsAnchor>false</spa_renderAsAnchor>
-                <spa_contentAlignment>0</spa_contentAlignment>
+                <spa_contentAlignment>4</spa_contentAlignment>
                 <pb_renderAsAnchor>false</pb_renderAsAnchor>
                 <pb_contentAlignment>0</pb_contentAlignment>
                 <desktop_hoverskin>Skin Defaults</desktop_hoverskin>
@@ -2163,10 +2163,10 @@
                 </spaWinphone8>
                 <spaWinphone8_override>false</spaWinphone8_override>
                 <spaipad>
-                    <left>6</left>
-                    <right>6</right>
-                    <top>7</top>
-                    <bottom>7</bottom>
+                    <left>5</left>
+                    <right>5</right>
+                    <top>5</top>
+                    <bottom>5</bottom>
                     <unit>%</unit>
                 </spaipad>
                 <spaipad_override>true</spaipad_override>
@@ -2428,7 +2428,7 @@
                     <bottom>2</bottom>
                     <unit>%</unit>
                 </spaipad>
-                <spaipad_override>true</spaipad_override>
+                <spaipad_override>false</spaipad_override>
                 <spatablet_android_override>false</spatablet_android_override>
                 <spatablet_windows_override>false</spatablet_windows_override>
                 <symbian>

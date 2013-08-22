@@ -7674,7 +7674,7 @@
             <winphone8_skin>Skin Defaults</winphone8_skin>
         </children>
         <children xsi:type="kLine">
-            <ID>line193382457664</ID>
+            <ID>line5</ID>
             <gridMetaData>
                 <colSpan>1</colSpan>
                 <column>0</column>

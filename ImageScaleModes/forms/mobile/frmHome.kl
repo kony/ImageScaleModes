@@ -2636,7 +2636,7 @@
             <winphone8_contentalign>middle-left</winphone8_contentalign>
         </children>
         <children xsi:type="khBox">
-            <ID>hbox19292963459</ID>
+            <ID>hboxFitToDim</ID>
             <gridMetaData>
                 <colSpan>1</colSpan>
                 <column>0</column>
@@ -3268,7 +3268,7 @@
             <desktop_hoverskin>Skin Defaults</desktop_hoverskin>
             <windows8_hoverskin>Skin Defaults</windows8_hoverskin>
             <children xsi:type="kImage2">
-                <ID>image2192929634510</ID>
+                <ID>imageBullet</ID>
                 <gridMetaData>
                     <colSpan>1</colSpan>
                     <column>0</column>
@@ -3313,12 +3313,12 @@
                     <rc_blackberry>true</rc_blackberry>
                     <rc_ipad>true</rc_ipad>
                     <rc_iphone>true</rc_iphone>
-                    <rc_j2me>true</rc_j2me>
-                    <rc_palm>true</rc_palm>
-                    <rc_symbian>true</rc_symbian>
+                    <rc_j2me>false</rc_j2me>
+                    <rc_palm>false</rc_palm>
+                    <rc_symbian>false</rc_symbian>
                     <rc_windows8>true</rc_windows8>
                     <rc_winmobile>true</rc_winmobile>
-                    <rc_winmobile6x>true</rc_winmobile6x>
+                    <rc_winmobile6x>false</rc_winmobile6x>
                     <rc_winphone8>true</rc_winphone8>
                     <tabspa_ipad>true</tabspa_ipad>
                     <tabspa_windows>true</tabspa_windows>
@@ -3523,7 +3523,7 @@
                         <left>0</left>
                         <right>0</right>
                         <top>0</top>
-                        <bottom>3</bottom>
+                        <bottom>20</bottom>
                         <unit>%</unit>
                     </spaAndroid>
                     <spaAndroid_override>true</spaAndroid_override>
@@ -3547,7 +3547,7 @@
                         <left>0</left>
                         <right>0</right>
                         <top>0</top>
-                        <bottom>5</bottom>
+                        <bottom>20</bottom>
                         <unit>%</unit>
                     </spaIphone>
                     <spaIphone_override>true</spaIphone_override>
@@ -3785,7 +3785,7 @@
                         <bottom>0</bottom>
                         <unit>%</unit>
                     </spaAndroid>
-                    <spaAndroid_override>false</spaAndroid_override>
+                    <spaAndroid_override>true</spaAndroid_override>
                     <spaBB>
                         <left>0</left>
                         <right>0</right>
@@ -3809,7 +3809,7 @@
                         <bottom>0</bottom>
                         <unit>%</unit>
                     </spaIphone>
-                    <spaIphone_override>false</spaIphone_override>
+                    <spaIphone_override>true</spaIphone_override>
                     <spaWindows>
                         <left>0</left>
                         <right>0</right>
@@ -4581,7 +4581,7 @@
             <winphone8_position>0</winphone8_position>
         </children>
         <children xsi:type="khBox">
-            <ID>hbox192929634569</ID>
+            <ID>hboxMARatio</ID>
             <gridMetaData>
                 <colSpan>1</colSpan>
                 <column>0</column>
@@ -5213,7 +5213,7 @@
             <desktop_hoverskin>Skin Defaults</desktop_hoverskin>
             <windows8_hoverskin>Skin Defaults</windows8_hoverskin>
             <children xsi:type="kImage2">
-                <ID>image2192929634571</ID>
+                <ID>imageBullet2</ID>
                 <gridMetaData>
                     <colSpan>1</colSpan>
                     <column>0</column>
@@ -5468,7 +5468,7 @@
                         <left>0</left>
                         <right>0</right>
                         <top>0</top>
-                        <bottom>3</bottom>
+                        <bottom>20</bottom>
                         <unit>%</unit>
                     </spaAndroid>
                     <spaAndroid_override>true</spaAndroid_override>
@@ -5492,7 +5492,7 @@
                         <left>0</left>
                         <right>0</right>
                         <top>0</top>
-                        <bottom>5</bottom>
+                        <bottom>20</bottom>
                         <unit>%</unit>
                     </spaIphone>
                     <spaIphone_override>true</spaIphone_override>
@@ -5730,7 +5730,7 @@
                         <bottom>0</bottom>
                         <unit>%</unit>
                     </spaAndroid>
-                    <spaAndroid_override>false</spaAndroid_override>
+                    <spaAndroid_override>true</spaAndroid_override>
                     <spaBB>
                         <left>0</left>
                         <right>0</right>
@@ -5754,7 +5754,7 @@
                         <bottom>0</bottom>
                         <unit>%</unit>
                     </spaIphone>
-                    <spaIphone_override>false</spaIphone_override>
+                    <spaIphone_override>true</spaIphone_override>
                     <spaWindows>
                         <left>0</left>
                         <right>0</right>
@@ -5890,7 +5890,7 @@
                 <winphone8_skin>Skin Defaults</winphone8_skin>
             </children>
             <children xsi:type="kLabel">
-                <ID>label192929634573</ID>
+                <ID>lblMARatio</ID>
                 <gridMetaData>
                     <colSpan>1</colSpan>
                     <column>0</column>
@@ -6526,7 +6526,7 @@
             <winphone8_position>0</winphone8_position>
         </children>
         <children xsi:type="khBox">
-            <ID>hbox1929296345219</ID>
+            <ID>hboxCrop</ID>
             <gridMetaData>
                 <colSpan>1</colSpan>
                 <column>0</column>
@@ -7158,7 +7158,7 @@
             <desktop_hoverskin>Skin Defaults</desktop_hoverskin>
             <windows8_hoverskin>Skin Defaults</windows8_hoverskin>
             <children xsi:type="kImage2">
-                <ID>image21929296345221</ID>
+                <ID>imageBullet3</ID>
                 <gridMetaData>
                     <colSpan>1</colSpan>
                     <column>0</column>
@@ -7413,7 +7413,7 @@
                         <left>0</left>
                         <right>0</right>
                         <top>0</top>
-                        <bottom>3</bottom>
+                        <bottom>20</bottom>
                         <unit>%</unit>
                     </spaAndroid>
                     <spaAndroid_override>true</spaAndroid_override>
@@ -7437,7 +7437,7 @@
                         <left>0</left>
                         <right>0</right>
                         <top>0</top>
-                        <bottom>5</bottom>
+                        <bottom>20</bottom>
                         <unit>%</unit>
                     </spaIphone>
                     <spaIphone_override>true</spaIphone_override>
@@ -7675,7 +7675,7 @@
                         <bottom>0</bottom>
                         <unit>%</unit>
                     </spaAndroid>
-                    <spaAndroid_override>false</spaAndroid_override>
+                    <spaAndroid_override>true</spaAndroid_override>
                     <spaBB>
                         <left>0</left>
                         <right>0</right>
@@ -7699,7 +7699,7 @@
                         <bottom>0</bottom>
                         <unit>%</unit>
                     </spaIphone>
-                    <spaIphone_override>false</spaIphone_override>
+                    <spaIphone_override>true</spaIphone_override>
                     <spaWindows>
                         <left>0</left>
                         <right>0</right>
@@ -7835,7 +7835,7 @@
                 <winphone8_skin>Skin Defaults</winphone8_skin>
             </children>
             <children xsi:type="kLabel">
-                <ID>label1929296345223</ID>
+                <ID>lblCrop</ID>
                 <gridMetaData>
                     <colSpan>1</colSpan>
                     <column>0</column>
@@ -8471,7 +8471,7 @@
             <winphone8_position>0</winphone8_position>
         </children>
         <children xsi:type="khBox">
-            <ID>hbox1929296345381</ID>
+            <ID>hboxFIFromURL</ID>
             <gridMetaData>
                 <colSpan>1</colSpan>
                 <column>0</column>
@@ -9103,7 +9103,7 @@
             <desktop_hoverskin>Skin Defaults</desktop_hoverskin>
             <windows8_hoverskin>Skin Defaults</windows8_hoverskin>
             <children xsi:type="kImage2">
-                <ID>image21929296345383</ID>
+                <ID>imageBullet4</ID>
                 <gridMetaData>
                     <colSpan>1</colSpan>
                     <column>0</column>
@@ -9358,7 +9358,7 @@
                         <left>0</left>
                         <right>0</right>
                         <top>0</top>
-                        <bottom>3</bottom>
+                        <bottom>20</bottom>
                         <unit>%</unit>
                     </spaAndroid>
                     <spaAndroid_override>true</spaAndroid_override>
@@ -9382,7 +9382,7 @@
                         <left>0</left>
                         <right>0</right>
                         <top>0</top>
-                        <bottom>5</bottom>
+                        <bottom>20</bottom>
                         <unit>%</unit>
                     </spaIphone>
                     <spaIphone_override>true</spaIphone_override>
@@ -9620,7 +9620,7 @@
                         <bottom>0</bottom>
                         <unit>%</unit>
                     </spaAndroid>
-                    <spaAndroid_override>false</spaAndroid_override>
+                    <spaAndroid_override>true</spaAndroid_override>
                     <spaBB>
                         <left>0</left>
                         <right>0</right>
@@ -9644,7 +9644,7 @@
                         <bottom>0</bottom>
                         <unit>%</unit>
                     </spaIphone>
-                    <spaIphone_override>false</spaIphone_override>
+                    <spaIphone_override>true</spaIphone_override>
                     <spaWindows>
                         <left>0</left>
                         <right>0</right>
@@ -9780,7 +9780,7 @@
                 <winphone8_skin>Skin Defaults</winphone8_skin>
             </children>
             <children xsi:type="kLabel">
-                <ID>label1929296345385</ID>
+                <ID>lblFIFromURL</ID>
                 <gridMetaData>
                     <colSpan>1</colSpan>
                     <column>0</column>

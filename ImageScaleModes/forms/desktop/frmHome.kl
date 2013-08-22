@@ -189,7 +189,7 @@
                 <left>0</left>
                 <right>0</right>
                 <top>0</top>
-                <bottom>20</bottom>
+                <bottom>30</bottom>
                 <unit>%</unit>
             </desktop_web>
             <desktop_web_override>true</desktop_web_override>
@@ -415,7 +415,7 @@
         <idle_timeout>false</idle_timeout>
         <retain_scrollPosition>false</retain_scrollPosition>
         <dialog_width>80</dialog_width>
-        <headerId>konyHeader</headerId>
+        <headerId>None</headerId>
         <footerId>None</footerId>
         <title>Home</title>
         <init>
@@ -773,22 +773,22 @@
             <localeId>None</localeId>
             <visible>true</visible>
             <rendererData>
-                <desktop_kiosk_channel>true</desktop_kiosk_channel>
-                <desktop_web_channel>false</desktop_web_channel>
+                <desktop_kiosk_channel>false</desktop_kiosk_channel>
+                <desktop_web_channel>true</desktop_web_channel>
                 <mixed_android>true</mixed_android>
-                <mixed_android_tab>false</mixed_android_tab>
+                <mixed_android_tab>true</mixed_android_tab>
                 <mixed_bb>true</mixed_bb>
-                <mixed_ipad>false</mixed_ipad>
+                <mixed_ipad>true</mixed_ipad>
                 <mixed_iphone>true</mixed_iphone>
                 <rc_android>true</rc_android>
-                <rc_android_tab>false</rc_android_tab>
+                <rc_android_tab>true</rc_android_tab>
                 <rc_blackberry>true</rc_blackberry>
-                <rc_ipad>false</rc_ipad>
+                <rc_ipad>true</rc_ipad>
                 <rc_iphone>true</rc_iphone>
                 <rc_j2me>true</rc_j2me>
                 <rc_palm>true</rc_palm>
                 <rc_symbian>true</rc_symbian>
-                <rc_windows8>false</rc_windows8>
+                <rc_windows8>true</rc_windows8>
                 <rc_winmobile>true</rc_winmobile>
                 <rc_winmobile6x>true</rc_winmobile6x>
                 <rc_winphone8>true</rc_winphone8>
@@ -1725,8 +1725,8 @@
                     <defaults>
                         <left>0</left>
                         <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
+                        <top>1</top>
+                        <bottom>1</bottom>
                         <unit>%</unit>
                     </defaults>
                     <desktop_kiosk>
@@ -2636,7 +2636,7 @@
             <winphone8_contentalign>middle-left</winphone8_contentalign>
         </children>
         <children xsi:type="khBox">
-            <ID>hbox19293261361228</ID>
+            <ID>hboxMARatio</ID>
             <gridMetaData>
                 <colSpan>1</colSpan>
                 <column>0</column>
@@ -3268,7 +3268,7 @@
             <desktop_hoverskin>Skin Defaults</desktop_hoverskin>
             <windows8_hoverskin>Skin Defaults</windows8_hoverskin>
             <children xsi:type="kImage2">
-                <ID>image219293261361229</ID>
+                <ID>imageBullet1</ID>
                 <gridMetaData>
                     <colSpan>1</colSpan>
                     <column>0</column>
@@ -3945,7 +3945,7 @@
                 <winphone8_skin>Skin Defaults</winphone8_skin>
             </children>
             <children xsi:type="kLabel">
-                <ID>lblMainAsp</ID>
+                <ID>lblMARatio</ID>
                 <gridMetaData>
                     <colSpan>1</colSpan>
                     <column>0</column>
@@ -4581,7 +4581,7 @@
             <winphone8_position>0</winphone8_position>
         </children>
         <children xsi:type="khBox">
-            <ID>hbox19293261361230</ID>
+            <ID>hboxFitToDim</ID>
             <gridMetaData>
                 <colSpan>1</colSpan>
                 <column>0</column>
@@ -5213,7 +5213,7 @@
             <desktop_hoverskin>Skin Defaults</desktop_hoverskin>
             <windows8_hoverskin>Skin Defaults</windows8_hoverskin>
             <children xsi:type="kImage2">
-                <ID>image219293261361231</ID>
+                <ID>imageBullet2</ID>
                 <gridMetaData>
                     <colSpan>1</colSpan>
                     <column>0</column>
@@ -6526,7 +6526,7 @@
             <winphone8_position>0</winphone8_position>
         </children>
         <children xsi:type="khBox">
-            <ID>hbox19293261361232</ID>
+            <ID>hboxFIFromURL</ID>
             <gridMetaData>
                 <colSpan>1</colSpan>
                 <column>0</column>
@@ -7158,7 +7158,7 @@
             <desktop_hoverskin>Skin Defaults</desktop_hoverskin>
             <windows8_hoverskin>Skin Defaults</windows8_hoverskin>
             <children xsi:type="kImage2">
-                <ID>image219293261361233</ID>
+                <ID>imageBullet3</ID>
                 <gridMetaData>
                     <colSpan>1</colSpan>
                     <column>0</column>
@@ -8471,7 +8471,7 @@
             <winphone8_position>0</winphone8_position>
         </children>
         <children xsi:type="khBox">
-            <ID>hbox120757210017148</ID>
+            <ID>hboxCont</ID>
             <gridMetaData>
                 <colSpan>1</colSpan>
                 <column>0</column>

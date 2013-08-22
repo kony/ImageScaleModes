@@ -2783,9 +2783,9 @@
         <att name="Bg_spaipad_image" value="" type="String"/>
         <att name="Bg_spaandroid_tablet_image" value="" type="String"/>
         <att name="Bg_spawindows_tablet_image" value="" type="String"/>
-        <att name="Font_weight" value="bold" type="String"/>
+        <att name="Font_weight" value="normal" type="String"/>
         <att name="Font_style" value="none" type="String"/>
-        <att name="Font_size" value="216" type="String"/>
+        <att name="Font_size" value="150" type="String"/>
         <att name="Font_color" value="96,96,96" type="RGB"/>
         <att name="Font_color_alpha" value="0" type="String"/>
         <att name="Rightfont_weight" value="normal" type="String"/>
@@ -12908,7 +12908,7 @@
         <att name="Bg_spawindows_tablet_image" value="" type="String"/>
         <att name="Font_weight" value="normal" type="String"/>
         <att name="Font_style" value="none" type="String"/>
-        <att name="Font_size" value="216" type="String"/>
+        <att name="Font_size" value="150" type="String"/>
         <att name="Font_color" value="250,250,250" type="RGB"/>
         <att name="Font_color_alpha" value="0" type="String"/>
         <att name="Rightfont_weight" value="normal" type="String"/>
@@ -12967,7 +12967,7 @@
 <att name="Shadow_color" value="128,128,128" type="RGB"/>
 <att name="Shadow_x" value="1" type="Integer"/>
 <att name="Shadow_y" value="1" type="Integer"/>
-        <att name="FontNameMap" value="iPad,HelveticaNeue-Bold" type="map"/>
+        <att name="FontNameMap" value="iPad,HelveticaNeue" type="map"/>
         <att name="FontNameMap" value="IPhone,Arial-BoldMT" type="map"/>
         <att name="ApplicablePlatforms" value="111110011111011111111111000011" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
@@ -14280,9 +14280,9 @@
         <att name="Chart2d3dProperties" value="" type="String"/>
     </skin>
     <skin>
-        <att name="Name" value="headerHboxSkin" type="String"/>
+        <att name="Name" value="titleBarHBoxSkin" type="String"/>
         <att name="WidgetType" value="HBox" type="String"/>
-        <att name="Bg_type" value="0" type="int"/>
+        <att name="Bg_type" value="3" type="int"/>
         <att name="Background_color" value="255,255,255" type="RGB"/>
         <att name="Rightbackground_color" value="255,255,255" type="RGB"/>
         <att name="Bg_gradient_style" value="0" type="int"/>
@@ -14409,9 +14409,9 @@
         <att name="Chart2d3dProperties" value="" type="String"/>
     </skin>
     <skin>
-        <att name="Name" value="titleBarHBoxSkin" type="String"/>
+        <att name="Name" value="headerHboxSkin" type="String"/>
         <att name="WidgetType" value="HBox" type="String"/>
-        <att name="Bg_type" value="3" type="int"/>
+        <att name="Bg_type" value="0" type="int"/>
         <att name="Background_color" value="255,255,255" type="RGB"/>
         <att name="Rightbackground_color" value="255,255,255" type="RGB"/>
         <att name="Bg_gradient_style" value="0" type="int"/>
