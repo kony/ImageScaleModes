@@ -3,7 +3,6 @@ ImageScaleModes
 
 Application to showcase the features of Image Scale Modes
 
-Project Owner: Malla Nandikonda <Malla.Nandikonda@kony.com>
 
 # Purpose
 This Application will showcase the following features of Image Scale Modes
@@ -18,4 +17,12 @@ This Application will showcase the following features of Image Scale Modes
 * Internet connectivity required for 'Fetch image from URL'
 
 # Supported platforms:
-iPhone, iPad, Android, Android tablet, SPA iPhone, SPA iPad, SPA Android, SPA Android tablet and DesktopWeb
+* iPhone
+* iPad
+* Android
+* Android tablet
+* SPA iPhone
+* SPA iPad
+* SPA Android
+* SPA Android tablet
+* DesktopWeb
