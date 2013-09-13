@@ -24,7 +24,7 @@ This Application will showcase the following features of Image Scale Modes
  * SPA iPhone
  
 **Tablet** 
- * Anroid
+ * Android
  * iPad
  * SPA iPad
  * SPA Android
