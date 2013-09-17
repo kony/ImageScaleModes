@@ -24,7 +24,7 @@
     </overridePerferred>
     <projectName>ImageScaleModes</projectName>
     <formName>frmHome</formName>
-    <platform>0</platform>
+    <platform>42</platform>
     <mode>0</mode>
     <formCategory>0</formCategory>
     <toList></toList>
@@ -131,7 +131,7 @@
             <rc_windows8>true</rc_windows8>
             <rc_winmobile>true</rc_winmobile>
             <rc_winmobile6x>false</rc_winmobile6x>
-            <rc_winphone8>false</rc_winphone8>
+            <rc_winphone8>true</rc_winphone8>
             <tabspa_ipad>true</tabspa_ipad>
             <tabspa_windows>true</tabspa_windows>
             <tabspaspa_android>true</tabspaspa_android>
@@ -1917,7 +1917,7 @@
                     <winmobile6x_override>true</winmobile6x_override>
                     <winmobile_override>true</winmobile_override>
                     <winphone8>
-                        <left>3</left>
+                        <left>6</left>
                         <right>3</right>
                         <top>10</top>
                         <bottom>10</bottom>
@@ -2682,7 +2682,7 @@
                 <height>false</height>
             </overridePerferred>
             <contentAlign>4</contentAlign>
-            <parent_contentalignment>middle-center</parent_contentalignment>
+            <parent_contentalignment>middle-left</parent_contentalignment>
             <parent_wrapping>word</parent_wrapping>
             <parent_longText>false</parent_longText>
             <parent_renderAsAnchor>false</parent_renderAsAnchor>
@@ -11450,7 +11450,7 @@
         <winphone8_outtransitionmode>Default</winphone8_outtransitionmode>
         <winphone8_intransitionspeed>0</winphone8_intransitionspeed>
         <winphone8_outtransitionspeed>0</winphone8_outtransitionspeed>
-        <winphone8_orientation>2</winphone8_orientation>
+        <winphone8_orientation>0</winphone8_orientation>
         <winphone8_onorientation_root>
             <evtSequence>
                 <enabled>true</enabled>
