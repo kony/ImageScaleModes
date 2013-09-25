@@ -36,4 +36,4 @@ This Application will showcase the following features of Image Scale Modes
  
 **Desktop**
  * DesktopWeb
- * Windows 8 
+ 
