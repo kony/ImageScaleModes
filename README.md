@@ -30,7 +30,7 @@ This Application will showcase the following features of Image Scale Modes
 **Tablet** 
  * Android
  * iPad
- * Windows 8
+ * Windows 8 ( Landscape Mode )
  * SPA iPad
  * SPA Android
  
