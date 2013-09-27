@@ -22,10 +22,10 @@ This Application will showcase the following features of Image Scale Modes
  * iPhone
  * Blackberry
  * Windows 8
- * Windows 7.5
- * SPA Blackberry 
+ * Windows 7.5 
  * SPA Android
  * SPA iPhone
+ * SPA Blackberry
  
 **Tablet** 
  * Android
