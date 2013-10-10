@@ -2682,7 +2682,7 @@
                 <height>false</height>
             </overridePerferred>
             <contentAlign>4</contentAlign>
-            <parent_contentalignment>middle-center</parent_contentalignment>
+            <parent_contentalignment>middle-left</parent_contentalignment>
             <parent_wrapping>word</parent_wrapping>
             <parent_longText>false</parent_longText>
             <parent_renderAsAnchor>false</parent_renderAsAnchor>
