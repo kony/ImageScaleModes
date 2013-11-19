@@ -4,11 +4,6 @@
     <container type="form" id="frmHome" displayname="Form"/>
     <container type="form" id="frmHome" displayname="Form"/>
     <container type="form" id="frmHome" displayname="Form"/>
-    <container type="form" id="frmImgCrop" displayname="Form"/>
-    <container type="form" id="frmImgFitToDimensions" displayname="Form"/>
-    <container type="form" id="frmImgMaintainAspectRatio" displayname="Form"/>
-    <container type="form" id="frmOptions" displayname="Form"/>
-    <container type="form" id="frmURLBasedImage" displayname="Form"/>
     <container type="form" id="frmHome" displayname="Form"/>
     <container type="form" id="frmImgCrop" displayname="Form"/>
     <container type="form" id="frmImgFitToDimensions" displayname="Form"/>
@@ -22,6 +17,11 @@
     <container type="form" id="frmOptions" displayname="Form"/>
     <container type="form" id="frmURLBasedImage" displayname="Form"/>
     <container type="form" id="frmHome" displayname="Form"/>
+    <container type="form" id="frmImgCrop" displayname="Form"/>
+    <container type="form" id="frmImgFitToDimensions" displayname="Form"/>
+    <container type="form" id="frmImgMaintainAspectRatio" displayname="Form"/>
+    <container type="form" id="frmOptions" displayname="Form"/>
+    <container type="form" id="frmURLBasedImage" displayname="Form"/>
     <container type="form" id="frmImgCrop" displayname="Form"/>
     <container type="form" id="frmImgFitToDimensions" displayname="Form"/>
     <container type="form" id="frmImgMaintainAspectRatio" displayname="Form"/>

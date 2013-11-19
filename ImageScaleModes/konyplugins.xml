@@ -22,5 +22,5 @@
     <pluginInfo plugin-name="Desktop Web" version-no="5.5.14.QA_v201311111452_r1"/>
     <pluginInfo plugin-name="Kony Sync" plugin-id="com.kony.sync.ide.SyncPlugin" version-no="5.5.7.GA_v201310241728"/>
     <pluginInfo plugin-name="Kony Web Commons" plugin-id="com.kony.web.Activator" version-no="5.5.5.QA_v201310291642"/>
-    <pluginInfo plugin-name="iOS Plugin" plugin-id="iosplugin.Activator" version-no="5.5.0.Beta3_v201310310053"/>
+    <pluginInfo plugin-name="iOS Plugin" plugin-id="iosplugin.Activator" version-no="5.5.17.QA_v201311182138"/>
 </plugins>
